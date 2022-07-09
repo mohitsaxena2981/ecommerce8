@@ -1,0 +1,101 @@
+[
+    {
+        "name" : "FirstCry",
+        "category" : "Dress",
+        "price" : "232.00",
+        "imgSrc" : "../assets/childrenPage/img1.jpg"
+    },
+    {
+        "name" : "Hotweels ( BMW)",
+        "category" : "Toy",
+        "price" : "50.25",
+        "imgSrc" : "../assets/childrenPage/img2.jpg"
+    },
+    {
+        "name" : "SunTop",
+        "category" : "Dress",
+        "price" : "152.00",
+        "imgSrc" : "../assets/childrenPage/img3.jpg"
+    },
+    {
+        "name" : "BeyBlade",
+        "category" : "Toy",
+        "price" : "235.00",
+        "imgSrc" : "../assets/childrenPage/img4.jpg"
+    },
+
+    {
+        "name" : "Nike",
+        "category" : "Jacket",
+        "price" : "132.00",
+        "imgSrc" : "../assets/childrenPage/img5.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "Dress",
+        "price" : "145.00",
+        "imgSrc" : "../assets/childrenPage/img6.jpg"
+    },
+    {
+        "name" : "AliBaba",
+        "category" : "Toy",
+        "price" : "135.00",
+        "imgSrc" : "../assets/childrenPage/img7.jpg"
+    },
+   
+    {
+        "name" : "Puma",
+        "category" : "Jacket",
+        "price" : "234.00",
+        "imgSrc" : "../assets/childrenPage/img8.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "Dress",
+        "price" : "265.00",
+        "imgSrc" : "../assets/childrenPage/img9.jpg"
+    },
+    {
+        "name" : "FirstCry",
+        "category" : "Toy",
+        "price" : "132.00",
+        "imgSrc" : "../assets/childrenPage/img10.jpeg"
+    },
+
+    {
+        "name" : "Jhonson & Jhonson",
+        "category" : "ChildCare",
+        "price" : "92.00",
+        "imgSrc" : "../assets/childrenPage/img11.jpg"
+    },
+    {
+        "name" : "Panira",
+        "category" : "Jacket",
+        "price" : "532.00",
+        "imgSrc" : "../assets/childrenPage/img12.jpg"
+    },
+    {
+        "name" : "ColoShop Combo",
+        "category" : "ChildCare",
+        "price" : "234.00",
+        "imgSrc" : "../assets/childrenPage/img13.jpg"
+    },
+    {
+        "name" : "Nestle",
+        "category" : "ChildCare",
+        "price" : "551.00",
+        "imgSrc" : "../assets/childrenPage/img14.jpg"
+    },
+    {
+        "name" : "SoloIndian",
+        "category" : "ChildCare",
+        "price" : "635.00",
+        "imgSrc" : "../assets/childrenPage/img15.jpg"
+    },
+    {
+        "name" : "FirstHub",
+        "category" : "Jacket",
+        "price" : "444.00",
+        "imgSrc" : "../assets/childrenPage/img16.jpg"
+    }
+]

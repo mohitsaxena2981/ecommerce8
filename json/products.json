@@ -1,0 +1,58 @@
+[
+    {
+        "id" : "1",
+        "name" : "Puma",
+        "category" : "Tshirt",
+        "price" : "50.25",
+        "imgSrc" : "../assets/new-arrivals/img1.jpg"
+    },
+    {
+        "id" : "2",
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "102.00",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg"
+    },
+    {
+        "id" : "3",
+        "name" : "ColoShop",
+        "category" : "Exclusive Trouser",
+        "price" : "15.00",
+        "imgSrc" : "../assets/new-arrivals/img3.jpg"
+    },
+    {
+        "id" : "4",
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "23.75",
+        "imgSrc" : "../assets/new-arrivals/img4.jpg"
+    },
+    {
+        "id" : "5",
+        "name" : "Khadi",
+        "category" : "Traditional cloth",
+        "price" : "50.00",
+        "imgSrc" : "../assets/new-arrivals/img5.jpg"
+    },
+    {
+        "id" : "6",
+        "name" : "Rado",
+        "category" : "Premium black watch",
+        "price" : "200.50",
+        "imgSrc" : "../assets/new-arrivals/img6.jpg"
+    },
+    {
+        "id" : "7",
+        "name" : "Avitas",
+        "category" : "Women Full body outfit",
+        "price" : "5.50",
+        "imgSrc" : "../assets/new-arrivals/img7.webp"
+    },
+    {
+        "id" : "8",
+        "name" : "WoodLand",
+        "category" : "Jacket",
+        "price" : "288.99",
+        "imgSrc" : "../assets/new-arrivals/img8.webp"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "102.00",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "192.00",
+        "imgSrc" : "../assets/menPage/img8.jpg"
+    },
+    {
+        "name" : "Louis Philipee",
+        "category" : "SunGlasses",
+        "price" : "444.00",
+        "imgSrc" : "../assets/menPage/img10.jpg"
+    },
+    {
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "651.00",
+        "imgSrc" : "../assets/menPage/img14.jpg"
+    },
+    {
+        "name" : "RayBan (Sun Run)",
+        "category" : "SunGlasses",
+        "price" : "152.00",
+        "imgSrc" : "../assets/womenPage/img3.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "265.00",
+        "imgSrc" : "../assets/womenPage/img8.jpg"
+    },
+    {
+        "name" : "Fast Track",
+        "category" : "SunGlasses",
+        "price" : "444.00",
+        "imgSrc" : "../assets/womenPage/img10.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "551.00",
+        "imgSrc" : "../assets/womenPage/img15.jpg"
+    },
+    {
+        "name" : "Nestle",
+        "category" : "ChildCare",
+        "price" : "551.00",
+        "imgSrc" : "../assets/childrenPage/img14.jpg"
+    },
+    {
+        "name" : "Jhonson & Jhonson",
+        "category" : "ChildCare",
+        "price" : "92.00",
+        "imgSrc" : "../assets/childrenPage/img11.jpg"
+    },
+    {
+        "name" : "ColoShop Combo",
+        "category" : "ChildCare",
+        "price" : "234.00",
+        "imgSrc" : "../assets/childrenPage/img13.jpg"
+    },
+    {
+        "name" : "SoloIndian",
+        "category" : "ChildCare",
+        "price" : "635.00",
+        "imgSrc" : "../assets/childrenPage/img15.jpg"
+    }
+    
+
+
+]

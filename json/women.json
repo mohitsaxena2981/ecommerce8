@@ -1,0 +1,100 @@
+[
+    {
+        "name" : "Puma",
+        "category" : "Top",
+        "price" : "232.00",
+        "imgSrc" : "../assets/womenPage/img1.jpg"
+    },
+    {
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "50.25",
+        "imgSrc" : "../assets/womenPage/img2.jpg"
+    },
+    {
+        "name" : "RayBan (Sun Run)",
+        "category" : "SunGlasses",
+        "price" : "152.00",
+        "imgSrc" : "../assets/womenPage/img3.jpg"
+    },
+    {
+        "name" : "WoodLand",
+        "category" : "Jacket",
+        "price" : "235.00",
+        "imgSrc" : "../assets/womenPage/img4.jpg"
+    },
+
+    {
+        "name" : "Nike",
+        "category" : "Bag",
+        "price" : "132.00",
+        "imgSrc" : "../assets/womenPage/img5.jpeg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "Top",
+        "price" : "145.00",
+        "imgSrc" : "../assets/womenPage/img5.jpg"
+    },
+    {
+        "name" : "Adidas",
+        "category" : "Bag",
+        "price" : "135.00",
+        "imgSrc" : "../assets/womenPage/img6.jpeg"
+    },
+   
+    {
+        "name" : "Puma",
+        "category" : "Jacket",
+        "price" : "234.00",
+        "imgSrc" : "../assets/womenPage/img7.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "265.00",
+        "imgSrc" : "../assets/womenPage/img8.jpg"
+    },
+    {
+        "name" : "MonteCarlo",
+        "category" : "Jacket",
+        "price" : "132.00",
+        "imgSrc" : "../assets/womenPage/img9.jpg"
+    },
+    {
+        "name" : "Fast Track",
+        "category" : "SunGlasses",
+        "price" : "444.00",
+        "imgSrc" : "../assets/womenPage/img10.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "Bag",
+        "price" : "92.00",
+        "imgSrc" : "../assets/womenPage/img11.jpeg"
+    },
+    {
+        "name" : "Panira",
+        "category" : "Top",
+        "price" : "532.00",
+        "imgSrc" : "../assets/womenPage/img12.jpg"
+    },
+    {
+        "name" : "Manvayar",
+        "category" : "Jacket",
+        "price" : "234.00",
+        "imgSrc" : "../assets/womenPage/img13.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "551.00",
+        "imgSrc" : "../assets/womenPage/img15.jpg"
+    },
+    {
+        "name" : "SoloIndian",
+        "category" : "Top",
+        "price" : "635.00",
+        "imgSrc" : "../assets/womenPage/img16.jpg"
+    }
+]

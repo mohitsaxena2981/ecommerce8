@@ -1,0 +1,99 @@
+[
+    {
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "50.25",
+        "imgSrc" : "../assets/menPage/img1.jpg"
+    },
+    {
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "102.00",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg"
+    },
+    {
+        "name" : "WoodLand",
+        "category" : "Jacket",
+        "price" : "152.00",
+        "imgSrc" : "../assets/menPage/img2.jpg"
+    },
+
+    {
+        "name" : "Nike",
+        "category" : "Bag",
+        "price" : "132.00",
+        "imgSrc" : "../assets/menPage/img3.jpg"
+    },
+    {
+        "name" : "Nike",
+        "category" : "Tshirt",
+        "price" : "145.00",
+        "imgSrc" : "../assets/menPage/img4.jpg"
+    },
+    {
+        "name" : "Adidas",
+        "category" : "Bag",
+        "price" : "129.00",
+        "imgSrc" : "../assets/menPage/img5.jpg"
+    },
+    {
+        "name" : "Puma",
+        "category" : "Tshirt",
+        "price" : "132.00",
+        "imgSrc" : "../assets/menPage/img6.jpg"
+    },
+    {
+        "name" : "Puma",
+        "category" : "Jacket",
+        "price" : "234.00",
+        "imgSrc" : "../assets/menPage/img7.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "192.00",
+        "imgSrc" : "../assets/menPage/img8.jpg"
+    },
+    {
+        "name" : "Levis",
+        "category" : "Jacket",
+        "price" : "132.00",
+        "imgSrc" : "../assets/menPage/img9.jpg"
+    },
+    {
+        "name" : "Louis Philipee",
+        "category" : "SunGlasses",
+        "price" : "444.00",
+        "imgSrc" : "../assets/menPage/img10.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "Bag",
+        "price" : "92.00",
+        "imgSrc" : "../assets/menPage/img11.jpg"
+    },
+    {
+        "name" : "RockOn",
+        "category" : "Tshirt",
+        "price" : "532.00",
+        "imgSrc" : "../assets/menPage/img12.jpg"
+    },
+    {
+        "name" : "Raymonds",
+        "category" : "Jacket",
+        "price" : "234.00",
+        "imgSrc" : "../assets/menPage/img13.jpg"
+    },
+    {
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "651.00",
+        "imgSrc" : "../assets/menPage/img14.jpg"
+    },
+    {
+        "name" : "SoloIndian",
+        "category" : "Tshirt",
+        "price" : "65.00",
+        "imgSrc" : "../assets/menPage/img15.jpg"
+    }
+]
