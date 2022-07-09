@@ -71,6 +71,7 @@ function loadJSON(){
             html += `
                 <div class = "product-item">
                     <div class = "product-img">
+                    <a class ="p-id" style="display:none"> ${product.id}</a>
                         <img src = "${product.imgSrc}" alt = "product image">
                         <button type = "button" class = "add-to-cart-btn">
                         Add To <i class = "fas fa-shopping-cart"></i>
@@ -228,16 +229,36 @@ function purchaseProduct(e){
 
 // get product info after add to cart button click
 function getProductInfo(product){
-    console.log(product);
-    let productInfo = {
-        id: cartItemID,
+    let id_p = product.querySelector('.p-id').textContent;
+    let id_arr = JSON.parse(localStorage.getItem('products'));
+    let i = 0;
+    var productInfo;
+    for(i = 0; i< id_arr.length;i++){
+        if(id_arr[i].id == id_p){
+            let q = parseInt(id_arr[i].quant);
+            deletecartproduct(id_p);
+            console.log(getProductFromStorage());
+            productInfo = {
+                id: id_p,
+                imgSrc: product.querySelector('.product-img img').src,
+                name: product.querySelector('.product-name').textContent,
+                category: product.querySelector('.product-category').textContent,
+                price: product.querySelector('.product-price').textContent,
+                quant: q+1
+            }
+            break;
+        }
+    }
+    if(i == id_arr.length){
+    productInfo = {
+        id: id_p,
         imgSrc: product.querySelector('.product-img img').src,
         name: product.querySelector('.product-name').textContent,
         category: product.querySelector('.product-category').textContent,
         price: product.querySelector('.product-price').textContent,
-        quant: Quantity 
+        quant: 1 
     }
-    cartItemID++;
+}
     addToCartList(productInfo);
     saveProductInStorage(productInfo);
 }
