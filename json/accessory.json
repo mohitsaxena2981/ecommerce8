@@ -1,75 +1,99 @@
 [
     {
-        "name" : "RayBan",
+        "id" : "26",
+        "name" : "RayBan Black",
         "category" : "SunGlasses",
-        "price" : "102.00",
-        "imgSrc" : "../assets/new-arrivals/img2.jpg"
+        "price" : "102",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "33",
         "name" : "ColoShop",
         "category" : "SunGlasses",
-        "price" : "192.00",
-        "imgSrc" : "../assets/menPage/img8.jpg"
+        "price" : "192",
+        "imgSrc" : "../assets/menPage/img8.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "35",
         "name" : "Louis Philipee",
         "category" : "SunGlasses",
-        "price" : "444.00",
-        "imgSrc" : "../assets/menPage/img10.jpg"
+        "price" : "444",
+        "imgSrc" : "../assets/menPage/img10.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "39",
         "name" : "RayBan",
         "category" : "SunGlasses",
-        "price" : "651.00",
-        "imgSrc" : "../assets/menPage/img14.jpg"
+        "price" : "651",
+        "imgSrc" : "../assets/menPage/img14.jpg",
+        "quant" : "1"
     },
     {
-        "name" : "RayBan (Sun Run)",
-        "category" : "SunGlasses",
-        "price" : "152.00",
-        "imgSrc" : "../assets/womenPage/img3.jpg"
-    },
-    {
-        "name" : "ColoShop",
-        "category" : "SunGlasses",
-        "price" : "265.00",
-        "imgSrc" : "../assets/womenPage/img8.jpg"
-    },
-    {
+        "id" : "19",
         "name" : "Fast Track",
         "category" : "SunGlasses",
-        "price" : "444.00",
-        "imgSrc" : "../assets/womenPage/img10.jpg"
+        "price" : "444",
+        "imgSrc" : "../assets/womenPage/img10.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "11",
+        "name" : "RayBan (Sun Run)",
+        "category" : "SunGlasses",
+        "price" : "152",
+        "imgSrc" : "../assets/womenPage/img3.jpg",
+        "quant" : "1"
+    },
+    {
+        "id" : "17",
         "name" : "ColoShop",
         "category" : "SunGlasses",
-        "price" : "551.00",
-        "imgSrc" : "../assets/womenPage/img15.jpg"
+        "price" : "265",
+        "imgSrc" : "../assets/womenPage/img8.jpg",
+        "quant" : "1"
     },
     {
-        "name" : "Nestle",
-        "category" : "ChildCare",
-        "price" : "551.00",
-        "imgSrc" : "../assets/childrenPage/img14.jpg"
+        "id" : "23",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "551",
+        "imgSrc" : "../assets/womenPage/img15.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "51",
         "name" : "Jhonson & Jhonson",
         "category" : "ChildCare",
-        "price" : "92.00",
-        "imgSrc" : "../assets/childrenPage/img11.jpg"
+        "price" : "92",
+        "imgSrc" : "../assets/childrenPage/img11.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "53",
         "name" : "ColoShop Combo",
         "category" : "ChildCare",
-        "price" : "234.00",
-        "imgSrc" : "../assets/childrenPage/img13.jpg"
+        "price" : "234",
+        "imgSrc" : "../assets/childrenPage/img13.jpg",
+        "quant" : "1"
     },
     {
+        "id" : "54",
+        "name" : "Nestle",
+        "category" : "ChildCare",
+        "price" : "551",
+        "imgSrc" : "../assets/childrenPage/img14.jpg",
+        "quant" : "1"
+    },
+    {
+        "id" : "55",
         "name" : "SoloIndian",
         "category" : "ChildCare",
-        "price" : "635.00",
-        "imgSrc" : "../assets/childrenPage/img15.jpg"
+        "price" : "635",
+        "imgSrc" : "../assets/childrenPage/img15.jpg",
+        "quant" : "1"
     }
     
 
