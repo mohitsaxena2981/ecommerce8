@@ -41,7 +41,7 @@ function eventListeners(){
 
     // show/hide cart container
     document.getElementById('cart-btn').addEventListener('click', () => {
-        cartContainer.classList.toggle('show-cart-container');
+        // cartContainer.classList.toggle('show-cart-container');
     });
 
     // add to cart
@@ -165,16 +165,16 @@ function loadCartPage(){
                 <div class = "productcontent">
                     <h3 class = "productname">${product.name}</h3>
                     <span class = "productcategory">${product.category}</span>
-                    <div class="adder"><a onclick = "">+</a></div>
-                    <p class = "Quantity">1</p>
-                    <div class="subtract"><a onclick = "">-</a></div>
+                    <div class="adder"><a onclick = "change('add',${product.id})">+</a></div>
+                    <p class = "Quantity" id ="${product.id}">${product.quant}</p>
+                    <div class="subtract"><a onclick = "change('sub',${product.id})">-</a></div>
                     <p class = "productprice">${product.price}</p>
                     <a class="removeCartitem" onclick = "deletecartproduct(${product.id});"href="#">Remove From Cart</a>
                 </div>
             </div>
         `;
         console.log(product.price);
-        totalCost += parseFloat(product.price.substr(1));
+        totalCost += parseInt(product.price.substr(1))*(product.quant);
         localStorage.setItem('totalCost',totalCost);
     });
    
@@ -186,7 +186,7 @@ function loadCartPage(){
     html = "";
     html += `
 
-    <h3>Total: $ ${total.toString()}</h3>
+    <h3 id ="totalAmount" >Total: $ ${total.toString()}</h3>
     <span id="cart-total-value"></span>
     <span id="purchase-span"><button id="purchase-btn" onclick = "Alert('Your order has been placed.')">Purchase Order</button></span>`;
   console.log(html);
@@ -208,7 +208,7 @@ function Alert(message){
 function deletecartproduct(id){
     let products = getProductFromStorage();
     let updatedProducts = products.filter(product => {
-        return product.id !== id;
+        return product.id != id;
     });
     localStorage.setItem('products', JSON.stringify(updatedProducts)); // updating the product list after the deletion
  
@@ -217,6 +217,50 @@ function deletecartproduct(id){
 
 }
 
+function change(type,id){
+    let file = JSON.parse(localStorage.getItem('products'));
+    console.log(id);
+    if(type.match('add')){
+        let str = " " + id;
+        let a = document.getElementById(str).innerHTML;
+        a = parseInt(a) + 1;
+        document.getElementById(str).innerHTML = a;
+        for(let i = 0;i < file.length; i++){
+            if(file[i].id == id){
+                let price = document.getElementById('totalAmount').textContent;
+                price = price.match(/(\d+)/);
+                console.log(price);
+                price = parseInt(price) + parseInt(file[i].price.substring(1));
+                document.getElementById('totalAmount').textContent = "Total: $"+ price;
+                file[i].quant +=1;
+                localStorage.setItem('products',JSON.stringify(file));
+                break;
+            }
+        }
+    }
+    else {
+        
+        let str = " " + id;
+        let a = document.getElementById(str).innerHTML;
+        if(parseInt(a) > 1){
+        a = parseInt(a) - 1;
+        document.getElementById(str).innerHTML = a;
+        for(let i = 0;i < file.length; i++){
+            if(file[i].id == id){
+                let price = document.getElementById('totalAmount').textContent;
+                
+                price = price.match(/(\d+)/);
+                console.log(price);
+                price = parseInt(price) - parseInt(file[i].price.substring(1));
+                document.getElementById('totalAmount').textContent = "Total: $"+ price;
+                file[i].quant -=1;
+                localStorage.setItem('products',JSON.stringify(file));
+                break;
+            }
+        }
+        }
+    }
+}
 
 
 // purchase product
@@ -232,25 +276,19 @@ function getProductInfo(product){
     let id_p = product.querySelector('.p-id').textContent;
     let id_arr = JSON.parse(localStorage.getItem('products'));
     let i = 0;
-    var productInfo;
+    if(id_arr!=null){
     for(i = 0; i< id_arr.length;i++){
         if(id_arr[i].id == id_p){
-            let q = parseInt(id_arr[i].quant);
-            deletecartproduct(id_p);
-            console.log(getProductFromStorage());
-            productInfo = {
-                id: id_p,
-                imgSrc: product.querySelector('.product-img img').src,
-                name: product.querySelector('.product-name').textContent,
-                category: product.querySelector('.product-category').textContent,
-                price: product.querySelector('.product-price').textContent,
-                quant: q+1
-            }
+            console.log('Match');
+            id_arr[i].quant += 1;
+            console.log(id_arr[i].quant);
+            localStorage.setItem('products',JSON.stringify(id_arr));
             break;
         }
     }
-    if(i == id_arr.length){
-    productInfo = {
+}
+    if(id_arr==null||i == id_arr.length){
+   let  productInfo = {
         id: id_p,
         imgSrc: product.querySelector('.product-img img').src,
         name: product.querySelector('.product-name').textContent,
@@ -258,9 +296,10 @@ function getProductInfo(product){
         price: product.querySelector('.product-price').textContent,
         quant: 1 
     }
-}
+
     addToCartList(productInfo);
     saveProductInStorage(productInfo);
+}
 }
 
 // add the selected product to the cart list
@@ -347,9 +386,6 @@ function deleteProduct(e){
     updateCartInfo();
 
 
-
-
-    // PART 2 SHOP.JSON 
 
 
 }
