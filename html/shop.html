@@ -75,22 +75,25 @@
     <div class="row">
       <div class="col" style="padding-left:20%;">
         <div class="dropdown menu">
-          <button class="btn btn-secondary dropdown-toggle dropdown-m" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Sort By : <b>Recommended</b>
+          <button class="btn btn-secondary dropdown-toggle dropdown-m changer" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sort By : <b>Relevance</b>
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">  
-            <li role = "button" onclick = "sorting('asc')"><a class="dropdown-item drpd-item"  href="#">Ascending Format</a></li>
-            <li role = "button" onclick = "sorting('dsc')" ><a class="dropdown-item drpd-item" role = "button" href="#">Descending Format</a></li>
+            <li role = "button" onclick = "sorting('Ascending')"><a class="dropdown-item drpd-item"  href="#">Ascending </a></li>
+            <li role = "button" onclick = "sorting('Descending')" ><a class="dropdown-item drpd-item" role = "button" href="#">Descending</a></li>
+         
+            <li role = "button" onclick = "sorting('Relevance')"><a class="dropdown-item drpd-item"  href="#">Relevance</a></li>
           </div>
         </div>
       </div>
       <div class="col" style="padding-left:20% ;">
         <div class="dropdown menu">
           <div class="dropdown menu">
-            <button class="btn btn-secondary dropdown-toggle dropdown-m" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Filter <i class="fa-solid fa-filter"></i> All
+            <button class="btn btn-secondary dropdown-toggle dropdown-m changer2" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Filter: All
             </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">  
+          <li role = "button" onclick = "filterByName('All')"><a class="dropdown-item drpd-item" href="#">All</a></li>
           <li role = "button" onclick = "filterByName('Bag')"><a class="dropdown-item drpd-item" href="#">Bag</a></li>
           <li role = "button" onclick = "filterByName('SunGlasses')"><a class="dropdown-item drpd-item" href="#">SunGlasses</a></li>
           <li role = "button" onclick = "filterByName('Jacket')"><a class="dropdown-item drpd-item" href="#">Jacket</a></li>
